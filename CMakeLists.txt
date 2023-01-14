@@ -47,7 +47,7 @@ else()
 endif()
 
 if(NOT WITH_PYTHON2 AND NOT WITH_PYTHON3)
-    set(WITH_PYTHON2 ON)
+    set(WITH_PYTHON3 ON)
 endif()
 
 if(WITH_PYTHON2)
