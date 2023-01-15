@@ -7,7 +7,7 @@ import json
 version = '0.0.0'
 download_url = ''
 
-with open(sys.argv[1]) as data_file:
+with open(sys.argv[1], "rt", encoding="utf-8") as data_file:
     data = json.load(data_file)
 
     if len(sys.argv) > 3:
